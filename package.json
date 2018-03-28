@@ -1,0 +1,26 @@
+{
+  "name": "biscotti-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/npm/src/index.js",
+  "scripts": {
+    "test": "gulp npm:test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandastrike/biscotti-css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pandastrike/biscotti-css/issues"
+  },
+  "homepage": "https://github.com/pandastrike/biscotti-css#readme",
+  "devDependencies": {
+    "amen": "^2.0.5",
+    "coffeescript": "^2.2.3",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "panda-builder": "^1.1.8"
+  }
+}
