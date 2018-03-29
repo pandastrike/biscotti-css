@@ -1,7 +1,7 @@
 {
   "name": "biscotti-css",
   "version": "1.0.0",
-  "description": "",
+  "description": "CoffeeScript virtual CSS templates",
   "main": "build/npm/src/index.js",
   "scripts": {
     "test": "gulp npm:test"
@@ -22,5 +22,9 @@
     "coffeescript": "^2.2.3",
     "gulp": "github:gulpjs/gulp#4.0",
     "panda-builder": "^1.1.8"
+  },
+  "dependencies": {
+    "biscotti": "^2.0.0",
+    "panda-vcss": "^1.0.0"
   }
 }

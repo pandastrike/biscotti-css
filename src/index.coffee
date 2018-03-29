@@ -1,11 +1,12 @@
 import {loader, fallback, buffer, include,
   filters, sandbox, engine} from "biscotti"
 import CSS from "panda-vcss"
+import filter from "./filter"
 
 
-render = do ->
+processor = (global = {}) ->
 
-  globals = Object.assign {}, {require}, CSS
+  globals = Object.assign {}, {require}, CSS, globals
 
   engine [
     sandbox: sandbox globals
@@ -19,4 +20,4 @@ render = do ->
     filter
   ]
 
-export {render as default}
+export {processor as default}
